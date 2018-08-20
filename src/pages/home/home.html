@@ -15,29 +15,53 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content style="background-color: #f0f0f0">
+<ion-content style="background-color: #f0f0f0;  margin-top:5px">
 
-<div style="background: white padding-top:5px">
+<div style="background: white">
 	
-<ion-scroll scrollX style="height:40px;">
+<ion-scroll scrollX style="height:40px">
+<ion-row nowrap class="headerChip">
   <div class="scroll-item">
-    <button ion-button>Abiertos</button>
+  	<ion-chip >
+          <ion-label  >Abiertos</ion-label>
+          <div></div>
+    </ion-chip>
+    <ion-chip >
+          <ion-label  >Promociones</ion-label>
+          <div></div>
+    </ion-chip> 
+    <ion-chip >
+          <ion-label  >Vegetarianos</ion-label>
+          <div></div>
+    </ion-chip>
+    <ion-chip >
+          <ion-label  >Criollos</ion-label>
+          <div></div>
+    </ion-chip>
+    <ion-chip >
+          <ion-label  >Abiertos Ahora</ion-label>
+          <div></div>
+    </ion-chip>
+    <!--
+    <button ion-button style="border-radius: 30%">Abiertos</button>
   </div>
   <div class="scroll-item">
-    <button ion-button>Promociones</button>
+    <button ion-button style="border-radius: 30%">Promociones</button>
   </div>
   <div class="scroll-item">
-    <button ion-button>Vegetarianos</button>
+    <button ion-button style="border-radius: 30%">Vegetarianos</button>
   </div>
   <div class="scroll-item">
-    <button ion-button>Criollos</button>
+    <button ion-button style="border-radius: 30%">Criollos</button>
   </div>
     <div class="scroll-item">
-    <button ion-button>Abiertos Ahora</button>
-  </div>
+    <button ion-button style="border-radius: 30%">Abiertos Ahora</button>-->
+  </div></ion-row>
 </ion-scroll>	
+
+</div>
 	<ion-searchbar></ion-searchbar>
-</div>	
+	
 
 <div padding>
 	  Hola a todos
