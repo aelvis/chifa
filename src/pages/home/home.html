@@ -1,14 +1,27 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Binvenidos
+      Binvenidos
     </ion-title>
+        <ion-buttons right>
+    	<div>
+    		<button ion-button icon-only  (click)="enviar()">
+			<ion-icon name="easel"></ion-icon>
+		</button>
+    	</div>
+		
+    </ion-buttons>
+
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  Hola a todos
+<ion-content>
+	<ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+<div padding>
+	  Hola a todos
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
+</div>
+
 </ion-content>
