@@ -12,8 +12,33 @@
   </ion-navbar>
 
 </ion-header>
-<ion-content>
+<ion-content padding>
+<ion-scroll scrollX style="height:50px;">
+  <div class="scroll-item" >
+    <ion-chip >
+          <ion-label  >Abiertos</ion-label>
+          <div></div>
+    </ion-chip>
+    <ion-chip >
+          <ion-label  >Promociones</ion-label>
+          <div></div>
+    </ion-chip> 
+    <ion-chip >
+          <ion-label  >Vegetarianos</ion-label>
+          <div></div>
+    </ion-chip>
+    <ion-chip >
+          <ion-label  >Criollos</ion-label>
+          <div></div>
+    </ion-chip>
+    <ion-chip >
+          <ion-label  >Abiertos Ahora</ion-label>
+          <div></div>
+    </ion-chip>
+  </div>
+</ion-scroll> 
 
+  <ion-searchbar></ion-searchbar>
 <div>
 
 	  Hola a todos
@@ -21,22 +46,4 @@
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
 </div>
-
-<ion-scroll scrollX style="height:40px;">
-  <div class="scroll-item">
-    <button ion-button>Abiertos</button>
-  </div>
-  <div class="scroll-item">
-    <button ion-button>Promociones</button>
-  </div>
-  <div class="scroll-item">
-    <button ion-button>Vegetarianos</button>
-  </div>
-  <div class="scroll-item">
-    <button ion-button>Criollos</button>
-  </div>
-    <div class="scroll-item">
-    <button ion-button>Abiertos Ahora</button>
-  </div>
-</ion-scroll>
 </ion-content>
